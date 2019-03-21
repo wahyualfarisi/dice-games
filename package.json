@@ -4,10 +4,11 @@
   "description": "Dice Games Lesson from Udemy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Wahyu Alfarisi",
   "license": "ISC",
+  "homepage": "https://wahyualfarisi/dice-games",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
