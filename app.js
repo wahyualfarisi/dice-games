@@ -35,7 +35,7 @@ document.querySelector('.btn-hold').addEventListener('click', function () {
         document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
 
         //check score if WIN
-        if (scores[activePlayer] > 20) {
+        if (scores[activePlayer] > 100) {
             document.querySelector('#name-' + activePlayer).textContent = 'Winner';
             document.getElementById('dice-1').style.display = 'none';
             document.getElementById('dice-2').style.display = 'none';
